@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*  --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --GrisOscuro: #666;
+    --GrisClaro: #ebebeb;
+    --Verde: #39b54a;
+ */
+
+li {
+    list-style: none;
+}
+
+a{
+    color: black;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+.home header {
+    background-color: #EAC926;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.home header nav .logo{
+    width: 75%;
+    padding: 30px;
+}
+
+.home header nav ul{
+    display: none
+}
+
+.home header div.search{
+    text-align: left;
+    padding: 5px;
+}
+
+.home header div input{
+    padding: 10px;
+    height: 30px;
+}
+
+.home header div.search i{
+    background-color: white;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.home header div h3 {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.home header div {
+    text-align: center ;
+    margin-left: 5px;
+}
+
+.home header div nav ul li {
+    text-align: left;
+}
+
+.home header div div.burger-menu {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 10px;
+    background-color: #1259c3;
+    color: white;
+    padding: 15px;
+    border: #1259c3 1px solid ;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.home header div nav ul.usser{
+    margin-top: 20px;
+}
+
+/* main */
+
+.home main{
+    width: 90%;
+    background-color: #ebebeb;
+    text-align: center;
+}
+
+.home main .banner img{
+    width: 100%;
+    display: none;
+}
+
+.home main h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.home main article img {
+    width: 60%;
+}
+
+.home main section article{
+    margin: 10px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+}
+
+.home main section article section{
+    text-align: left;
+}
+
+.home main article img {
+    width: 100%;
+}
+
+.home main section article section{
+    border-top: 1px solid #ebebeb;
+    margin: 15px;
+}
+
+.home main section article section div{
+    display: inline-block;
+    border: 1px solid #39b54a;
+    color: #39b54a;
+    border-radius: 50%;
+}
+
+.home main section article section div i{
+    font-size: 25px;
+    padding: 15px;
+}
+
+.home main article section span {
+    display: block;
+    font-size: 18px;;
+}
+
+.home main article section p{
+    color: #39b54a;
+    font-size: 16px;
+}
+
+.home main article h4{
+    color: #666;
+    margin: 15px;
+    text-align: left;
+    display: none;
+}
+
+/* footer */
+
+.home footer {
+    text-align: center;
+    background-color: white;
+}
+
+.home footer section i{
+    color: #1259c3;
+    font-size: 2em;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.home footer section h3{
+    font-size: 20px;
+}
+
+.home footer section p{
+    padding: 0px 30px 0px 30px;
+}
+
+.home footer p.copyright{
+    margin-top: 30px;
+    text-align: left;
+}
+
+@media (min-width: 361px) {
+
+    /* header */
+
+    .home header nav ul{
+        display: block
+    }
+
+    .home header div div.burger-menu {
+        display: none;
+    }
+
+    /* main */
+
+    .home main {
+        width: 100%;
+    }
+
+    .home main .banner img{
+        display: block;
+    }
+
+    .home main section{
+        width: 90%;
+    }
+
+    .home main article img {
+        width: 100%;
+    }
+
+    .home main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        margin: 5px;
+    }
+
+    .home main article h4{
+        display: block;
+    }
+}
+
+@media (min-width: 769px) {
+    
+}
