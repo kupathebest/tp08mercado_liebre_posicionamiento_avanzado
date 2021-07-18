@@ -320,6 +320,8 @@ body {
     }
 }
 
+/* desktop */
+
 @media (min-width: 1024px) {
 
     /* header */
@@ -342,4 +344,17 @@ body {
     .home main section article{
         width: 22%;
     }
+
+    /* footer */
+
+    .home footer div{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .home footer div section{
+        padding: 10px;
+        width: 30%;
+    }
+
 }
